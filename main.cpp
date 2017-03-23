@@ -11,6 +11,7 @@ int primeFactors(int n)
         
         n = n/2;
         k++;
+        
     }
  
 
@@ -21,6 +22,7 @@ int primeFactors(int n)
         {
             k++;
             n = n/i;
+           
         }
     }
  
